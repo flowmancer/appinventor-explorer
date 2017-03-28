@@ -1,0 +1,45 @@
+{
+  "methods": [{
+    "deprecated": "false",
+    "description": "Vector addition of Vector1 and Vector2",
+    "name": "Add",
+    "params": [],
+    "returnType": "text"
+  }],
+  "nonVisible": "true",
+  "external": "false",
+  "helpString": "This provides some basic vector arithmetic of 2 vectors.",
+  "events": [],
+  "name": "VectorArithmetic",
+  "iconName": "images/externalComponent.png",
+  "blockProperties": [
+    {
+      "description": "The entries of a vector as a string of comma-separated numbers",
+      "name": "Vector1",
+      "type": "text",
+      "rw": "read-write"
+    },
+    {
+      "description": "The entries of a vector as a string of comma-separated numbers",
+      "name": "Vector2",
+      "type": "text",
+      "rw": "read-write"
+    }
+  ],
+  "categoryString": "EXTENSION",
+  "properties": [
+    {
+      "name": "Vector1",
+      "defaultValue": "",
+      "editorType": "string"
+    },
+    {
+      "name": "Vector2",
+      "defaultValue": "",
+      "editorType": "string"
+    }
+  ],
+  "type": "com.gmail.at.ehondev.VectorArithmetic",
+  "showOnPalette": "true",
+  "version": "3"
+}
